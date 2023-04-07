@@ -27,7 +27,6 @@
   "peerDependencies": {
     "antd": ">3.0.0",
     "@ant-design/icons": ">3.0.0",
-    "@ant-design/compatible": "1.1.0",
     "rc-field-form": ">0.0.1",
     "prop-types": "^15.5.4",
     "lodash": "^4.0.0",
