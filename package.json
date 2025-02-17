@@ -20,7 +20,7 @@
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "pnpm run build",
+    "prepublishOnly": "pnpm run build",
     "predeploy": "cd example && pnpm install && pnpm run build",
     "deploy": "gh-pages -d example/build"
   },
